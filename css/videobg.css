@@ -38,11 +38,17 @@ body {
 }
 
 .rodape p {
-  color: white;
+  color: orange;
   font-size: 20px;
   font-family: sans-serif;
+  font-weight: 600;
   line-height: 20px;
   margin: 10px auto;
+}
+
+.rodape p span {
+  color: white;
+  font-weight: 600;
 }
 
 .rodape button {
@@ -50,6 +56,7 @@ body {
   padding: 15px;
   border-radius: 10px;
   font-size: 18px;
+  font-weight: 600;
   border: none;
   outline: none;
   cursor: pointer;
