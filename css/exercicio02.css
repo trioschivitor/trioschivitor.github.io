@@ -1,0 +1,77 @@
+body {
+  background: linear-gradient(180deg, #febe02, black);
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 700;
+  color: black;
+  margin: 46.9px 0;
+}
+
+hr {
+  height: 10px;
+  background: rgb(0, 0, 0);
+  margin: 8px 471.75px;
+  border: none;
+}
+
+.box {
+  background: black;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 30px;
+  width: 50%;
+}
+
+.box h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.box h2 span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #febe01;
+  font-size: 35px;
+  display: inline;
+}
+
+.box p span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #febe01;
+  font-size: 20px;
+  display: inline;
+}
+
+.box p {
+  color: #b2b2b2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 20px auto;
+  display: block;
+}
+
+.box a {
+  background: #febe01;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  color: black;
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.box a:hover {
+  background: black;
+  color: #febe01;
+  border: 1px solid #febe01;
+}

@@ -1,0 +1,101 @@
+/* Normalizacao */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 150px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-top: 200px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#teste {
+  width: 800px;
+  border: 1px solid black;
+  margin: 100px auto;
+  padding: 40px;
+  background: lightsteelblue;
+  position: relative;
+}
+
+#teste p {
+  font-size: 40px;
+  font-weight: 600px;
+  font-style: italic;
+}
+
+#teste span {
+  background: rgba(255, 0, 0, 0.5);
+  padding: 20px 40px;
+  color: white;
+  font-weight: 700;
+  position: absolute;
+  top: -30px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 150px;
+  background: rgb(25, 24, 24);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.topo section {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.topo nav {
+  width: 65%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.topo section img {
+  width: 30%;
+}
+
+.topo nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.topo nav ul li {
+  background: orange;
+  padding: 20px 40px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.topo nav ul li:hover {
+  background: white;
+  color: orange;
+  transition: 0.3s;
+}
+
+.topo nav ul li a {
+  text-decoration: none;
+}
+.setatopo {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+}

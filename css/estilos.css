@@ -1,0 +1,106 @@
+/* Normalização */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 150px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: lightyellow;
+  margin-top: 200px;
+}
+
+.px {
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.rem {
+  font-size: 2.5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 120px;
+  background: lightskyblue;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.topo section {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+.topo nav {
+  width: 50%;
+  color: rgb(25, 25, 25);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.topo section img {
+  width: 25%;
+}
+.topo nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.topo nav ul li {
+  background: green;
+  padding: 20px 40px;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.topo nav ul li:hover {
+  background: white;
+  color: grey;
+  transition: 0.4s;
+}
+.topo a {
+  text-decoration: none;
+  color: black;
+}
+
+/* .topo nav ul a li {
+  text-decoration: none;
+} */
+
+@font-face {
+  font-family: maze;
+  src: url(/arquivos/maze.ttf);
+}
+
+hr {
+  height: 10px;
+  background: #66041f;
+}
+
+p {
+  text-align: justify;
+  margin: 0 auto;
+}
+/* Este estilo controla a box */
+.box {
+  width: 60%;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 30px auto;
+  background: rgba(0, 0, 0, 0.3);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.palavra1 {
+  color: blue;
+  font-weight: 700;
+}
