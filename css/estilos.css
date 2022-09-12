@@ -8,7 +8,7 @@
 }
 
 body {
-  background: lightyellow;
+  background: yellowgreen;
   margin-top: 200px;
 }
 
@@ -18,6 +18,9 @@ body {
 }
 
 .rem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 2.5rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
