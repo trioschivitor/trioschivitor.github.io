@@ -6,11 +6,17 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: nfs;
+  src: url(/arquivos/mostwasted.ttf);
+}
+
 /*Desktop*/
 
 h1 {
+  font-family: nfs;
   text-align: center;
-  font-size: 3.75rem;
+  font-size: 4.75rem;
 }
 
 body {
