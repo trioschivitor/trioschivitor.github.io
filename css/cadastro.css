@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("/imagens/cadastro.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 80vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+.total {
+  background: rgba(0, 0, 0, 0.714);
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
